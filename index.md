@@ -1,6 +1,4 @@
 ---
-layout: page
+layout: homepage
 title: Mater'Happy
 ---
-
-Coucou voici le site de Mater'Happy
