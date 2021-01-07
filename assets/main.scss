@@ -75,3 +75,26 @@ body {
   text-align : center;
   list-style-position: inside;
 }
+
+.box .content ul {
+  text-align : left;
+  padding : 0% 15%;
+}
+
+.navbar-break {
+  padding-bottom : 40px;
+  background : url("/assets/motif_break.png") repeat-x 10px bottom;
+}
+
+#footer .container-fluid, .navbar{
+  padding : 0px 5% 0px 5%;
+}
+
+#footer #email {
+  padding-top: 40px;
+  background : url("/assets/motif_break.png") repeat-x 5px top;
+}
+
+#footer {
+  padding-bottom: 30px;
+}
