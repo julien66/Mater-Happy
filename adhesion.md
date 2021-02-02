@@ -4,6 +4,7 @@ title: Adhésion
 icon : users
 ---
 <div class="row">
+    <h3>Pourquoi Adhérer</h3>
     <ul>
         <li>Vous permettre de bénéficier des différentes prestations proposées par l'association</li>
         <li>Soutenir l’association financièrement pour lui permettre de se développer en réponse à vos besoins</li>
