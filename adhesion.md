@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Adhésion
+title: Pourquoi Adhérer?
 icon : users
 ---
-<h3>Pourquoi Adhérer</h3>
 <div class="row">
     <ul>
         <li>Vous permettre de bénéficier des différentes prestations proposées par l'association</li>
