@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Pourquoi Adhérer?
+menuTitle : Adhésion
 icon : users
 ---
 <div class="row">
