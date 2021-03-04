@@ -48,7 +48,7 @@ header {padding : 30px}
 }
 
 #visio .box {
-  background: url("/assets/talk.png") no-repeat;
+  background: url("/assets/icons/talk.png") no-repeat;
   background-color : #ffdec2;
   background-clip: content-box;
 }
@@ -109,4 +109,43 @@ html *:not(i) {
 
 #asso h6 {
   margin-top : 15px;
+}
+
+#agenda .st-dtitle-today {
+  background-color: #000000;
+  border: 1px solid #000000;
+}
+
+.navbar .nav-link {
+  font-size : 1.25em;
+}
+
+#agenda {
+  padding : 0px 50px 20px 50px;
+}
+
+.blog {
+  display : flex;
+  flex-wrap: wrap;
+}
+
+.blogBox {
+  flex-basis: 33%;
+}
+
+.blogBox .content{
+  height: 150px;
+  overflow: hidden;
+}
+
+.blogImage {
+  padding : 30px;
+  margin-top : -60px;
+  background-color: #ffc5c2;
+  margin-bottom : 20px;
+}
+
+.rss-feed {
+  padding-top : 20px;
+  text-align : right;
 }
