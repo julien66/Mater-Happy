@@ -5,6 +5,5 @@ author : Aurélie
 excerpt_separator: <!--extrait-->
 ---
 
-Naissance!
-**Hey**, voici notre premier billet.
+Voici notre premier post!
 Retrouvez plus d'actualité ici prochainement!<!--extrait-->
