@@ -5,9 +5,12 @@ menuTitle : Intervenants
 icon : graduation-cap
 ---
 <div class="row">
-  Liste à venir
-  <ul>
-    <li> </li>
-    <li> </li>
-  </ul>
+    <div class="col-6">
+        <img src="/assets/intervenants.jpg" alt="Dessin de couple, femme enceinte">
+    </div>
+    <div class="col-6">
+        Sur le <a href="/files/Les%20portraits.pdf" target="_blank"> LIEN </a> suivant, tu pourras partir à la rencontre des différents membres bénévoles. Chacun de nous, par son
+        écoute, ses connaissances ou son partage d’expérience s’est donné pour mission d’accompagner les parents dans cette 
+        belle étape qu’est l’accompagnement pré et postpartum.
+    </div>
 </div>
