@@ -15,27 +15,16 @@ layout: default
     <h4>{{ page.list_title | default: "Toute l'actualité de l'association" }}</h4>
     <br>
     <div class="blog">
-        {%- for post in site.posts -%}
-        <div class="blogBox">
-            <div class="title">
-                <h5>
-                    <a href="{{ post.url | relative_url }}">
-                        {{ post.title | escape }}
-                    </a>
-                </h5>
+        {% for post in site.posts %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+            {% if loopindex == 1 %}
+                <div class="row">
+                    {% include post_box.html post=post %}
+            {% else %}
+                    {% include post_box.html post=post %}
             </div>
-            <div class="content">
-                {{ post.excerpt }}
-            </div>
-            <div class="box-footer">
-                <span class="text-muted">
-                    {%- assign date_format = "%-d/ %m / %Y" -%}
-                    le {{ post.date | date: date_format }}
-                </span>
-                <span class="by"> par </span> <span class="author">{{ post.author }}</span>
-            </div>
-        </div>
-        {%- endfor -%}
+            {% endif %}
+        {% endfor %}
     </div>
     <div class="rss-feed"><i class="fa fa-rss"></i> S'Abonner <a href="{{ "/feed.xml" | relative_url }}">via flux RSS</a></div>
     {%- endif -%}

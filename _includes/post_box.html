@@ -1,0 +1,28 @@
+<div class="box bg-box col-sm-6">
+    <div class="content">
+        <div class="title">
+            <h3>
+                <a href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </h3>
+        </div>
+        <div class="py-4">
+            <div class="float-right">
+                <a href="{{ post.url | relative_url }}">
+                    <i class="fa fa-eye"></i> En savoir plus
+                </a>
+            </div>
+        </div>
+        <div class="content">
+            {{ post.excerpt }}
+        </div>
+        <div class="box-footer">
+                <span class="text-muted">
+                    {%- assign date_format = "%-d/ %m / %Y" -%}
+                    le {{ post.date | date: date_format }}
+                </span>
+            <span class="by"> par </span> <span class="author">{{ post.author }}</span>
+        </div>
+    </div>
+</div>
