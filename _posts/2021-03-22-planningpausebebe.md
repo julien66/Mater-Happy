@@ -8,5 +8,5 @@ excerpt_separator: <!--extrait-->
 
 Pour le mois d'Avril voici les différents thèmes proposés.
 
-Pensez à vous inscrire sur le groupe WhatsApp "Pause bébé" car le nombre de participants est limité afin de respecter les gestes barrière 😷
+Pensez à vous inscrire sur le groupe WhatsApp "Pause bébé" car le nombre de participants est limité afin de respecter les gestes barrières 😷
 <!--extrait-->
