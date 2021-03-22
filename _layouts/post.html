@@ -11,17 +11,16 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        • {{ page.author }}
       {%- endif -%}
     </p>
   </header>
 
   <section>
     <div class="row">
-      <div class="col-6">
+      <div class="col-md-6">
         {{ content }}
       </div>
-      <div class="col-6">
+      <div class="col-md-6">
         {%- if page.image -%}
           <div class="blogImage">
             <img alt="Image du billet de blog" src="/assets/images/{{ page.image }}"/>
