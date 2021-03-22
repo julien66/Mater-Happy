@@ -15,14 +15,20 @@
             </div>
         </div>
         <div class="content">
-            {{ post.excerpt }}
+            <div class="row">
+                <div class="col-md-6">
+                    {{ post.excerpt }}
+                </div>
+                <div class="col-md-6">
+                    <img src="/assets/images/{{ post.image }}" alt="Image du post"/>
+                </div>
+            </div>
         </div>
         <div class="box-footer">
                 <span class="text-muted">
                     {%- assign date_format = "%-d/ %m / %Y" -%}
                     le {{ post.date | date: date_format }}
                 </span>
-            <span class="by"> par </span>
         </div>
     </div>
 </div>
