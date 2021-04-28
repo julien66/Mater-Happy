@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Projet de naissance"
+title:  "Atelier - Projet de naissance"
 author : Aurélie
 image : projet de naissance.jpg
 excerpt_separator: <!--extrait-->
