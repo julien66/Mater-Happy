@@ -2,7 +2,7 @@
 layout: post
 title:  "Planning Pause Bébé Mai 2021"
 author : Aurélie
-image : 2021-05-01-planningpausebebe.jpg
+image : planning pbb mai.jpg
 excerpt_separator: <!--extrait-->
 ---
 
