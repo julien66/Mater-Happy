@@ -30,9 +30,7 @@ plugins:
 
 # A list of the pages to display in the navigation bar
 header_pages:
-  - blog.md
   - intervenants.md
-  - agenda.md
   - adhesion.md
 
 # Exclude from processing.
